@@ -1,0 +1,124 @@
+body{
+    background-color: #0f121f;
+}
+
+body *{
+    font-family: Ubuntu;
+}
+
+.container {
+	background-color: #fff;
+	position: absolute;
+	border-radius: 10px;
+	width: 40%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow-y: auto;
+}
+
+.containerLong {
+	background-color: #fff;
+	position: absolute;
+	border-radius: 10px;
+	width: 40%;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow-y: auto;
+}
+
+.containerLarge {
+	background-color: #fff;
+	position: absolute;
+	border-radius: 10px;
+	width: 60%;
+	height: 75%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow-y: auto;
+}
+
+.bookInfo {
+	width: 100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	height: 60%;
+	font-size: 25px;
+	padding-left: 2%;
+	border-bottom: 3px solid black;
+	border-top: 3px solid black;
+}
+
+.centerHorizontal {
+	margin: auto;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	font-size: 75px;
+}
+
+.centerVertical {
+	position: relative;
+	width: 100%;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+.center {
+	position: absolute;
+	align-items: center;
+	width: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.loginFormContainer {
+	margin: auto;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	width: 75%;
+}
+.EmailFormContainer {
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	width: 75%;
+}
+
+.emptyGap {
+	width: 100%;
+	height: 20px;
+}
+input[type = text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 18px;
+  }
+  
+  input[type = submit] {
+	width: 100%;
+	background-color: blue;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: navy;
+  }
